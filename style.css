@@ -2,6 +2,13 @@
     padding: 5px;
 }
 
+div{ 
+
+}
+
+
+
+
 .card {
     background-color: lightgray;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -10,7 +17,7 @@
     text-align: center;
     padding: 20px
     margin: 20px;
-    border: 10px solid green;
+    border: 10px double black;
 }
 
 img {
@@ -27,5 +34,16 @@ img {
 .p-description {
     max-height: 80px;
   overflow: auto;
+}
+
+
+.product-price {
+    color: gray;
+}
+.product-price:hover {
+    color: rgb(255, 0, 0);
+    background-color: white;
+    font-weight: bold;
+   
 }
 
